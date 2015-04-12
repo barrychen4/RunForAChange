@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-d682e8a4c4a0347d39f3a8671a4151c96dc3bff6.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-2180812db723c4ea2b27c22d950663a333b29440.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-3d8a8c322b7d86b01d8709f8660c8e36e2727ba3.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-edcec485941fd04f6aeea80b6e5f066f0c9049b1.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-94140585f54b8761abfb23df556c73fe0316cf8e.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-43d6a9f243fc4989321e082e0575f8c1f4423917.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-2557794e631fb6532a46ad3b9405179e0c71f96d.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-e3144c83fb582d9c6a3b5d54556b110bf234c686.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a070b39e1495c63b30081af7ed85677014182ad2.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-8dea9206fc3d4b687acd97edbb14021c3e822519.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-4eaf553b5fd580260a690e4cb77370911286ac2a.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-f98a2b23704b9c4ea734049548b77e8ec94209aa.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-bac3c49e0c4de115e97b31b0347c0c76d464ff27.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-f483fb6248870fc15195fc2f65cf47ba9b551dd6.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/src/main/assets/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-d1992cf0a0b962aca1e4f8867adb68ea9f3008be.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-0c49a36fab962946f39a0406c8126e2c54ebb15d.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-cc3ed6f7e236ae872ed8463054c27ca914e789d7.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-059de0aeb740ecf6911697033866fb4209c11b34.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-6637bc23cda64a590c99c58b58e6121eaa46a5e5.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-a7f77edaf6c7c2f7ac55e5e12584cc5892aee8de.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-72353b53059ba89cc77b978596cf49dac5789cac.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-11a12044ffe647f82f156703bedd86a5181fa32e.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/src/main/assets/Parse-1.9.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1b065010f3c9d441ede9078aca8eabcd1c81e647">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/Parse-1.9.1-5007124f807a9fd49466eb85b4546a5acb2b533b.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-8ac241288f9baf51afb492786db15f31b0b9c43e.jar" />
+    </item>
+    <item
+        jar="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/barrychen/Desktop/RunForAChange/app/build/intermediates/pre-dexed/debug/classes-1474061e8f73a76e7f2b77bb27359ed7dbe73e1e.jar" />
+    </item>
+
+</items>

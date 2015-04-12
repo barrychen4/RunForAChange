@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hmkcode.nearpime.activities.NewPostActivity"
+    android:weightSum="2"
+    android:windowSoftInputMode="stateHidden"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Search by Name or Email"
+            android:ems="10"
+            android:id="@+id/search_q"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/search_b"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/balloon"
+            android:scaleType="fitXY"
+            android:contentDescription="Main Image"
+            android:padding="1dp"
+            android:id="@+id/balloon_img" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="image"
+            android:clickable="true"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/edit_states"
+            android:src="@drawable/ic_action_edit"
+            android:layout_alignBottom="@+id/balloon_img"
+            android:layout_alignRight="@+id/balloon_img"
+            android:layout_alignEnd="@+id/balloon_img" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/balloon_img"
+            android:layout_marginTop="20px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Name: "
+                android:id="@+id/name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email: "
+                android:id="@+id/email"
+                android:layout_marginLeft="20px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Points: "
+                android:id="@+id/totalmiles"
+                android:layout_marginLeft="20px" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--<TextView android:id="@+id/milestoday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>-->
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+        android:text="Refresh"
+        android:background="@drawable/button_default_bg"
+        />
+
+</LinearLayout>

@@ -44,6 +44,8 @@ import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 import com.parse.ParseException;
 
+import org.json.JSONArray;
+
 
 public class LoginActivity extends Activity {
 
@@ -79,7 +81,6 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Parse.enableLocalDatastore(this);
         Parse.initialize(this, "tDIszEasIJ8ebuKIaV5QMlkcliRCSDDzJT7IoVTk", "IEI8UKOHqvsNvZz61lClYSlYzswnxEpLeTWUPAZZ");
 
         mContext = this.getApplicationContext();
@@ -93,12 +94,10 @@ public class LoginActivity extends Activity {
         Account[] accounts = AccountManager.get(this).getAccountsByType("com.google");
         Account account = null;
 
-        final Button button = (Button) findViewById(R.id.btnSignUp);
         final Button btnLogin = (Button) findViewById(R.id.btnLogin);
-        final EditText username   = (EditText)findViewById(R.id.etUserName);
-        final EditText password   = (EditText)findViewById(R.id.etPass);
-        final EditText fname   = (EditText)findViewById(R.id.etFName);
-        final EditText lname   = (EditText)findViewById(R.id.etLName);
+
+        final EditText username   = (EditText) findViewById(R.id.etUserNameL);
+        final EditText password   = (EditText) findViewById(R.id.etPassL);
 
         if (accounts.length > 0) {
             account = accounts[0];
@@ -109,8 +108,16 @@ public class LoginActivity extends Activity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                String sn = ((EditText) findViewById(R.id.etUserNameL)).getText().toString();
-                String pw = ((EditText) findViewById(R.id.etPassL)).getText().toString();
+                if(username.getText().toString().replaceAll("\\s+","").length() == 0
+                        || password.getText().toString().toString().replaceAll("\\s+","").length() == 0) {
+
+                    Toast.makeText(mContext, "Please fill out all the fields.", Toast.LENGTH_SHORT).show();
+                    return;
+
+                }
+
+                String sn = username.getText().toString();
+                String pw = password.getText().toString();
 
                 ParseUser.logInInBackground(sn, pw, new LogInCallback() {
                     public void done(ParseUser user, ParseException e) {
@@ -130,59 +137,6 @@ public class LoginActivity extends Activity {
         });
 
 
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-
-                if(username.getText().toString().replaceAll("\\s+","").length() == 0
-                        || password.getText().toString().toString().replaceAll("\\s+","").length() == 0
-                        || fname.getText().toString().toString().replaceAll("\\s+","").length() == 0
-                        || lname.getText().toString().toString().replaceAll("\\s+","").length() == 0) {
-
-                    Toast.makeText(mContext, "Please fill out all the fields.", Toast.LENGTH_SHORT).show();
-                    return;
-
-                }
-
-                ParseUser user = new ParseUser();
-                user.setUsername(username.getText().toString());
-                user.setPassword(password.getText().toString());
-                user.put("fName", fname.getText().toString());
-                user.put("lName", lname.getText().toString());
-                user.put("points",0);
-                user.put("blockMode",false);
-//                user.put("blocked",new ArrayList<ParseObject>());
-
-//                Log.d("ERRORS","ERRORS");
-                user.signUpInBackground(new SignUpCallback() {
-                    public void done(ParseException e) {
-                        if (e == null) {
-
-//                              Log.d("CURR USER OBJID:", ParseUser.getCurrentUser().getObjectId());
-//                            SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(
-//                                    getString(R.string.preference_file_key), Context.MODE_PRIVATE);
-//                            SharedPreferences.Editor editor = sharedPref.edit();
-//                            editor.putString("username", username.getText().toString());
-//                            editor.putString("password", password.getText().toString());
-//                            editor.putString("fName", fname.getText().toString());
-//                            editor.putString("lName", lname.getText().toString());
-//                            editor.commit();
-                            Log.d("SUCCESS","SUCCESS");
-                            Toast.makeText(getApplicationContext(), "Account Created Successfully", Toast.LENGTH_SHORT);
-                            Intent in = new Intent(getApplicationContext(), MainActivity.class);
-                            in.putExtra("objid", ParseUser.getCurrentUser().getObjectId());
-                            startActivity(in);
-                        } else {
-                            // Sign up didn't succeed. Look at the ParseException
-                            // to figure out what went wrong
-                            System.out.println("ERROR MESSAGE: " + e.getMessage());
-                            Toast.makeText(getApplicationContext(), "Email already taken.", Toast.LENGTH_SHORT);
-
-                        }
-                    }
-                });
-            }
-        });
     }
 
 

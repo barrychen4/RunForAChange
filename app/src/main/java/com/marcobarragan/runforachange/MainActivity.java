@@ -106,6 +106,23 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     private static int curDis = 0;
     private static Context mContext;
 
+    public void logoutClicked(MenuItem item) {
+        Toast.makeText(getApplicationContext(), "You have successfully logged out.", Toast.LENGTH_LONG).show();
+        ParseUser currUser = ParseUser.getCurrentUser();
+        if(currUser != null) {
+            currUser.logOut();
+        }
+
+        Intent in = new Intent(getApplicationContext(), HomepageActivity.class);
+        startActivity(in);
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        // do nothing.
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -513,7 +530,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     private void updateDatabase(){
         ParseUser pUser = ParseUser.getCurrentUser();
         int pastP = pUser.getInt("points");
-        int curP = (int) (((curDis*.4)/300)*5);
+        int curP = (int) (((curDis*.4)/300)*300);
         int nowP = curP - pastP;
         if (nowP < 0){
             nowP = 0;

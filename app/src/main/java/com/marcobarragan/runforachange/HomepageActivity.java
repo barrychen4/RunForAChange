@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.parse.LogInCallback;
+import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
@@ -20,7 +21,16 @@ public class HomepageActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        Parse.initialize(this, "tDIszEasIJ8ebuKIaV5QMlkcliRCSDDzJT7IoVTk", "IEI8UKOHqvsNvZz61lClYSlYzswnxEpLeTWUPAZZ");
+
+        if(ParseUser.getCurrentUser() != null) {
+            Intent in = new Intent(getApplicationContext(), MainActivity.class);
+            in.putExtra("objid", ParseUser.getCurrentUser().getObjectId());
+            startActivity(in);
+            return;
+        }
         setContentView(R.layout.activity_homepage);
 
         final Button btnLogin = (Button) findViewById(R.id.btnLoginHome);

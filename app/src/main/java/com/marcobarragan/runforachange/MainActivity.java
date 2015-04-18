@@ -123,6 +123,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         // do nothing.
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

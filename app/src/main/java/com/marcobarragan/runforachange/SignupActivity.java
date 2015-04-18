@@ -133,6 +133,7 @@ public class SignupActivity extends Activity {
                 user.put("lName", lname.getText().toString());
                 user.put("points",0);
                 user.put("blockMode",false);
+                user.put("conversionRate", PreferencesActivity.ACTIVITY_LEVEL_MEDIUM);
                 ArrayList<Object> blockedList = new ArrayList<Object>();
                 user.put("blocked", new JSONArray(blockedList));
 
